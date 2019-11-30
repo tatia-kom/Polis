@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Проверка номера телефона</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.min.css"/>
+  
+</head>
+<body>
+
+    <div class="flex-screen">
+        <header class="header">
+            <!-- Add class 'hidden' to hide the element -->
+            <span class="header__back"></span>
+            <div class="header__logo">LOGO</div>
+            <span class="header__profile"></span>
+        </header>
+
+        <div class="content">
+            <div class="page">
+                <div class="page__top page__top--big page__top--phone">
+                    <p class="page__title">Для проверки расчета<br>подтвердите номер телефона</p>
+                </div>
+
+                <div class="page__block page__block--bottom_margin">
+                    <div class="form form--bottom_40">
+                        <div class="form__item">
+                            <label class="form__label">Телефон</label>
+                            <div class="form__phone-block">
+                                <div class="form__phone-code">
+                                    <span class="form__phone-code-flag" style="background-image: url('img/avto-country.svg')"></span>
+                                    <span class="form__phone-code-text">+7</span>
+                                </div>
+                                <input type="text" class="form__input form__input--phone" placeholder="(999) 789 00 00">
+                            </div>
+                        </div>
+                        <div class="form__item">
+                            <label class="form__label">Код подтверждения</label>
+                            <input type="text" class="form__input">
+                        </div>
+                    </div>
+
+                    <button class="button">Отправить</button>
+                    <button class="button button--white">Отправить снова</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="page__footer">Гарантируем сохранность и безопасность<br>ваших данных в соответствии с ФЗ «О персональных данных»</div>
+    </div>
+
+</body>
+</html>

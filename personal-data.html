@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Страхователь</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.min.css"/>
+  
+</head>
+<body>
+
+    <div class="flex-screen">
+        <header class="header">
+            <!-- Add class 'hidden' to hide the element -->
+            <span class="header__back"></span>
+            <div class="header__logo">LOGO</div>
+            <span class="header__profile"></span>
+        </header>
+
+        <div class="content">
+            <div class="page">
+                <div class="page__top page__top--man_with_car">
+                    <p class="page__title">Введите данные о себе</p>
+                </div>
+
+                <div class="page__block page__block--bottom_margin">
+                    <div class="form form--middle">
+                        <div class="form__item">
+                            <label class="form__label">ФИО</label>
+                            <textarea class="form__textarea form__textarea--smooth" style="height: 60px">Константин Константинович Константинопольский</textarea>
+                        </div>
+                        <div class="form__item form__item--calendar">
+                            <label class="form__label">Дата рождения</label>
+                            <input type="text" class="form__input" value="12.12.1987">
+                        </div>
+                        <div class="form__item form__item--select">
+                            <div class="hint">
+                                <div class="hint__icon"></div>
+
+                                <div class="hint__block">
+                                    <p>Для более точного расчёта нужна информация о стаже, это влияет на стоимость</p>
+                                </div>
+                            </div>
+
+                            <label class="form__label">Стаж вождения (лет)</label>
+                            <input type="text" class="form__input">
+                        </div>
+                        <div class="form__item form__item--select">
+                            <div class="hint">
+                                <div class="hint__icon"></div>
+
+                                <div class="hint__block">
+                                    <p>В каком городе прописан собственник автомобиля? Регион влияет на стоимость страховки</p>
+                                </div>
+                            </div>
+
+                            <label class="form__label">Город регистрации</label>
+                            <input type="text" class="form__input">
+                        </div>
+                        <div class="form__item">
+                            <label class="form__label">Телефон</label>
+                            <div class="form__phone-block">
+                                <div class="form__phone-code">
+                                    <span class="form__phone-code-flag" style="background-image: url('img/avto-country.svg')"></span>
+                                    <span class="form__phone-code-text">+7</span>
+                                </div>
+                                <input type="text" class="form__input form__input--phone" placeholder="(999) 789 00 00">
+                            </div>
+                        </div>
+
+                        <label class="checkbox">
+                            <input type="checkbox" class="checkbox__input" checked>
+                            <div class="checkbox__text">Я принимаю условия передачи информации<br>и страхования</div>
+                        </label>
+                    </div>
+
+                    <button class="button">Узнать стоимость</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="page__footer">Гарантируем сохранность и безопасность<br>ваших данных в соответствии с ФЗ «О персональных данных»</div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Паспортные данные</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.min.css"/>
+  
+</head>
+<body>
+
+    <div class="flex-screen">
+        <header class="header">
+            <!-- Add class 'hidden' to hide the element -->
+            <span class="header__back"></span>
+            <div class="header__logo">LOGO</div>
+            <span class="header__profile"></span>
+        </header>
+
+        <div class="content">
+            <div class="page">
+                <div class="page__top page__top--card">
+                    <p class="page__title">Нет диагностической карты<span class="small-margin">К сожалению у вас нет диагностической карты,<br>либо она просрочена.</span></p>
+                </div>
+
+                <div class="page__block page__block--bottom_margin">
+                    <p class="page__card-text">Мы сохранили ваши данные, обновите диагностическую карту и продолжайте оформление.</p>
+                    <p class="page__card-name">Что нужно сделать сейчас?</p>
+                    <div class="page__card-image">
+                        <img src="img/card3.jpg" alt="">
+                    </div>
+                    <p class="page__card-text">Продолжите оформление</p>
+
+                    <ul class="index__dots page__dots">
+                        <li class="index__dot"></li>
+                        <li class="index__dot"></li>
+                        <li class="index__dot index__dot--active"></li>
+                        <li class="index__dot"></li>
+                    </ul>
+
+                    <div class="form">
+                        <div class="form__item form__item--calendar form__item--small_top">
+                            <label class="form__label">Введите дату окончания ДК</label>
+                            <input type="text" class="form__input" value="01.01.2020">
+                        </div>
+
+                        <div class="form__item form__item--small_top">
+                            <label class="form__label">Введите номер диагностической карты</label>
+                            <input type="text" class="form__input" value="123456">
+                        </div>
+                    </div>
+
+                    <button class="button">Далее</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="page__footer">Гарантируем сохранность и безопасность<br>ваших данных в соответствии с ФЗ «О персональных данных»</div>
+    </div>
+
+</body>
+</html>

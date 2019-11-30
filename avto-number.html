@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Номер авто</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.min.css"/>
+  
+</head>
+<body>
+
+    <div class="flex-screen">
+        <header class="header">
+            <!-- Add class 'hidden' to hide the element -->
+            <span class="header__back"></span>
+            <div class="header__logo">LOGO</div>
+            <span class="header__profile hidden"></span>
+        </header>
+
+        <div class="content">
+            <div class="page">
+                <div class="page__top page__top--big page__top--man">
+                    <p class="page__title">Давайте начнем!<span>Для расчета ОСАГО укажите<br>номер автомобиля и данные из государственной базы данных будут добавлены автоматически</span></p>
+                </div>
+
+                <div class="page__block page__block--bottom_margin">
+                    <div class="avto-num">
+                        <div class="avto-num__block">
+                            <div class="avto-num__left">
+                                <input type="text" placeholder="A" class="avto-num__input avto-num__input--character avto-num__input--alone">
+                                <input type="text" placeholder="000" class="avto-num__input">
+                                <input type="text" placeholder="AA" class="avto-num__input avto-num__input--character avto-num__input--double">
+                            </div>
+                            <div class="avto-num__right">
+                                <input type="text" placeholder="111" class="avto-num__input avto-num__input--region">
+                                <span class="avto-num__country">RUS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="button">Рассчитать</button>
+                    <button class="button button--white">Ввести данные вручную<span class="button__icon button__icon--right"><img src="img/arrow-right.svg" alt=""></span></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="page__footer">Гарантируем сохранность и безопасность<br>ваших данных в соответствии с ФЗ «О персональных данных»</div>
+    </div>
+
+</body>
+</html>

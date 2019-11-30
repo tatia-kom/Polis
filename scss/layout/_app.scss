@@ -1,0 +1,61 @@
+@import "layout/var";
+
+body {
+    font-family: $mainFont;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+p {
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    font-weight: normal;
+}
+header, footer, section, div, span, p, button, a, input, textarea {
+    box-sizing: border-box;
+}
+
+button,input,textarea{
+    outline: none;
+}
+button {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+
+.hidden {
+    display: none!important;
+}
+
+.flex-screen {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    height: 100%;
+    flex-grow: 1;
+
+    &--blue {
+        background: $blue;
+    }
+}
