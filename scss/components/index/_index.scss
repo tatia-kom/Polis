@@ -31,6 +31,9 @@
     padding: 24px 15px;
     display: flex;
     flex-direction: column;
+    max-width: 345px;
+    margin: 0 auto;
+    flex-shrink: 0;
   }
 
   &__close {
