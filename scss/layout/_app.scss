@@ -5,6 +5,11 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
+    background: #FCFCFC;
+
+    &.modal-opened {
+        overflow: hidden;
+    }
 }
 
 p {

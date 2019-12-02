@@ -16,6 +16,11 @@
     color: $blue;
   }
 
+  &--disabled {
+    pointer-events: none;
+    background: #B5B5B5;
+  }
+
   &__icon {
     position: absolute;
     top: 16px;

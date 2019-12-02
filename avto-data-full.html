@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="text/html" charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Данные авто полные</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.min.css"/>
+  
+</head>
+<body>
+
+    <div class="flex-screen">
+        <header class="header">
+            <!-- Add class 'hidden' to hide the element -->
+            <span class="header__back"></span>
+            <div class="header__logo">LOGO</div>
+            <span class="header__profile"></span>
+        </header>
+
+        <div class="content">
+            <div class="page">
+                <div class="page__top page__top--car">
+                    <p class="page__title">Введите данные об<br>автомобиле</p>
+                </div>
+
+                <div class="page__block page__block--bottom_margin page__block--top_70">
+                    <!-- Add class "page__driver--opened" to open the block -->
+                    <div class="page__driver">
+                        <div class="page__driver-top">
+                            <span class="page__driver-name">Ваш автомобиль</span>
+                        </div>
+
+                        <div class="form form--small">
+                            <div class="form__item">
+                                <label class="form__label">Марка, модель</label>
+                                <input type="text" class="form__input" value="AUDI RS 6">
+                            </div>
+
+                            <div class="form__item form__item--calendar">
+                                <label class="form__label">Год выпуска</label>
+                                <input type="text" class="form__input" value="2014 Г.В.">
+                            </div>
+
+                            <div class="form__item form__item--select">
+                                <label class="form__label">Мощность (Л.С.)</label>
+                                <input type="text" class="form__input" value="2300">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="page__driver page__driver--no_border page__driver--opened">
+                        <div class="page__driver-top">
+                            <span class="page__driver-name">Данные автомобиля</span>
+                        </div>
+
+                        <div class="form">
+                            <div class="form__item">
+                                <div class="form__radios">
+                                    <label class="radio">
+                                        <input type="radio" class="radio__input" name="avto1" checked>
+                                        <div class="radio__text">VIN</div>
+                                    </label>
+                                    <label class="radio">
+                                        <input type="radio" class="radio__input" name="avto1">
+                                        <div class="radio__text">№ КУЗОВА</div>
+                                    </label>
+                                    <label class="radio">
+                                        <input type="radio" class="radio__input" name="avto1">
+                                        <div class="radio__text">№ ШАССИ</div>
+                                    </label>
+                                </div>
+                                <input type="text" class="form__input" value="Z1238415432">
+                            </div>
+
+                            <div class="form__item">
+                                <div class="form__radios">
+                                    <label class="radio">
+                                        <input type="radio" class="radio__input" name="avto1" checked>
+                                        <div class="radio__text">CTC</div>
+                                    </label>
+                                    <label class="radio">
+                                        <input type="radio" class="radio__input" name="avto1">
+                                        <div class="radio__text">ПТС</div>
+                                    </label>
+                                </div>
+                                <input type="text" class="form__input" value="1234 5678 9000">
+                            </div>
+
+                            <div class="form__item form__item--calendar">
+                                <label class="form__label">Дата выдачи</label>
+                                <input type="text" class="form__input" value="01.01.2018">
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="button">Далее</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="page__footer">Гарантируем сохранность и безопасность<br>ваших данных в соответствии с ФЗ «О персональных данных»</div>
+    </div>
+
+</body>
+</html>
