@@ -179,6 +179,10 @@
     position: relative;
     max-width: 345px;
 
+    @media (min-width: 768px) {
+      flex-grow: 0;
+    }
+
     &--bottom_margin {
       padding-bottom: 25px;
     }

@@ -34,6 +34,10 @@
     max-width: 345px;
     margin: 0 auto;
     flex-shrink: 0;
+
+    @media (min-width: 768px) {
+      flex-grow: 0;
+    }
   }
 
   &__close {
